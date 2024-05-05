@@ -1,0 +1,15 @@
+CREATE DATABASE student;
+USE student;
+CREATE TABLE student1(NAME VARCHAR (20),id INT(10),address VARCHAR (40),mobile_number VARCHAR(11));
+SELECT * FROM  student1;
+INSERT INTO student1(NAME ,id, address,mobile_number)VALUES ('kafi',222,'uttara_12','01312231'),
+('himu',223,'uttara_3','011312233'),
+('jarim',224,'uttara_1','0179234');
+SELECT * FROM  student1;
+
+CREATE TABLE student_info(NAME VARCHAR (20),id INT(10),address VARCHAR (40),mobile_number VARCHAR(11));
+SELECT * FROM  student_info;
+INSERT INTO student_info(NAME ,id, address,mobile_number)VALUES ('saif',222,'uttara_12','01312231'),
+('kamo',223,'uttara_3','011312233'),
+('sali',224,'uttara_1','0179234');
+SELECT * FROM  student_info;
